@@ -7,7 +7,7 @@ const VisualGlossary = () => {
   const [viewMode, setViewMode] = useState('grid');
   const [selectedConcept, setSelectedConcept] = useState(null);
 
-  // Complete glossary data with descriptions - 7 CHAPTERS
+  // Complete glossary data with descriptions - 8 CHAPTERS, 30 CONCEPTS
   const glossaryData = {
     "Statistics": {
       color: "bg-blue-500",
@@ -190,6 +190,22 @@ const VisualGlossary = () => {
           description: "Triangles that are identical in both shape and size. All corresponding sides and angles are exactly equal. Congruence can be proven using criteria: SSS (Side-Side-Side), SAS (Side-Angle-Side), ASA (Angle-Side-Angle), AAS (Angle-Angle-Side), and RHS (Right angle-Hypotenuse-Side). Symbol: △ABC ≅ △DEF"
         }
       ]
+    },
+    "Trigonometry": {
+      color: "bg-indigo-500",
+      icon: "📐",
+      concepts: [
+        {
+          name: "Basic Trigonometry",
+          image: "BasicTrig.jpeg",
+          description: "The three primary trigonometric ratios in a right triangle. Sin(θ) = Opposite/Hypotenuse, Cos(θ) = Adjacent/Hypotenuse, Tan(θ) = Opposite/Adjacent. These fundamental ratios help relate angles to side lengths. The Pythagorean theorem states: Opposite² + Adjacent² = Hypotenuse²"
+        },
+        {
+          name: "Identities",
+          image: "Identities.jpeg",
+          description: "A circle with radius 1 centered at the origin, used to define trigonometric functions for all angles. The x-coordinate represents cos(θ) and y-coordinate represents sin(θ) for any angle θ. The unit circle helps visualize how sin and cos values change as angles rotate from 0° to 360°."
+        }
+      ]
     }
   };
 
@@ -223,7 +239,7 @@ const VisualGlossary = () => {
                 <h1 className="text-3xl font-bold bg-gradient-to-r from-indigo-600 to-purple-600 bg-clip-text text-transparent">
                   Visual Glossary
                 </h1>
-                <p className="text-sm text-gray-600">Dual Coding Learning • {totalConcepts} Concepts • 7 Chapters</p>
+                <p className="text-sm text-gray-600">Dual Coding Learning • {totalConcepts} Concepts • 8 Chapters</p>
               </div>
             </div>
             <div className="flex items-center gap-2">
@@ -454,7 +470,7 @@ const VisualGlossary = () => {
             <span className="font-semibold">Visual Glossary</span> • Dual Coding Theory in Action
           </p>
           <p className="text-sm text-gray-500 mt-2">
-            Combining visual and verbal information for better learning retention
+            Combining visual and verbal information for better learning retention • 30 Concepts across 8 Chapters
           </p>
         </div>
       </footer>

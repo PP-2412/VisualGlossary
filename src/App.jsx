@@ -15,17 +15,17 @@ const VisualGlossary = () => {
       concepts: [
         {
           name: "Mean",
-          image: "Mean.jpg",
+          image: "Mean.jpeg",
           description: "The arithmetic average of a set of numbers, calculated by adding all values and dividing by the count. It represents the central tendency of data and is commonly used in everyday statistics."
         },
         {
           name: "Median",
-          image: "Median.jpg",
+          image: "Median.jpeg",
           description: "The middle value in a data set when arranged in ascending or descending order. It divides the data into two equal halves and is less affected by outliers than the mean, making it useful for skewed distributions."
         },
         {
           name: "Mode",
-          image: "Mode.jpg",
+          image: "Mode.jpeg",
           description: "The value that appears most frequently in a data set. A dataset can have one mode (unimodal), multiple modes (bimodal or multimodal), or no mode at all if all values occur with equal frequency."
         }
       ]
@@ -36,27 +36,27 @@ const VisualGlossary = () => {
       concepts: [
         {
           name: "Sector",
-          image: "Sector.jpg",
+          image: "Sector.jpeg",
           description: "The region bounded by two radii and the arc between them. Like a slice of pizza, it's a portion of the circle's area. The area of a sector depends on the central angle it subtends."
         },
         {
           name: "Chord, Diameter, Radius",
-          image: "Chord, Diameter, Radius.jpg",
+          image: "Chord, Diameter, Radius.jpeg",
           description: "Chord: A line segment connecting two points on a circle. Diameter: The longest chord that passes through the center, equal to twice the radius. Radius: The distance from the center to any point on the circle."
         },
         {
           name: "Segment",
-          image: "Segment.jpg",
+          image: "Segment.jpeg",
           description: "The region between a chord and the arc it cuts off from the circle. There are two segments created by any chord: the minor segment (smaller area) and the major segment (larger area)."
         },
         {
           name: "Tangent",
-          image: "Tangent.jpg",
+          image: "Tangent.jpeg",
           description: "A line that touches the circle at exactly one point, called the point of tangency. It's always perpendicular to the radius drawn to the point of contact. A tangent from an external point has equal length to both tangent lines from that point."
         },
         {
           name: "Concentric",
-          image: "Concentric.jpg",
+          image: "Concentric.jpeg",
           description: "Circles that share the same center point but have different radii. They create ring-like patterns and are commonly seen in targets, ripples in water, and tree rings. The space between concentric circles forms an annulus."
         }
       ]
@@ -67,12 +67,12 @@ const VisualGlossary = () => {
       concepts: [
         {
           name: "AP",
-          image: "AP.jpg",
+          image: "AP.jpeg",
           description: "Arithmetic Progression (AP) is a sequence where each term is obtained by adding a constant value called the common difference (d) to the previous term. Example: 2, 5, 8, 11, 14... has d=3. The nth term formula is: aₙ = a₁ + (n-1)d"
         },
         {
           name: "GP",
-          image: "GP.jpg",
+          image: "GP.jpeg",
           description: "Geometric Progression (GP) is a sequence where each term is obtained by multiplying the previous term by a constant value called the common ratio (r). Example: 2, 6, 18, 54... has r=3. The nth term formula is: aₙ = a₁ × r^(n-1)"
         }
       ]
@@ -83,27 +83,27 @@ const VisualGlossary = () => {
       concepts: [
         {
           name: "Sphere",
-          image: "Sphere.jpg",
+          image: "Sphere.jpeg",
           description: "A perfectly round three-dimensional object where every point on the surface is equidistant from the center. Surface Area = 4πr², Volume = (4/3)πr³. Examples include balls, planets, and bubbles."
         },
         {
           name: "Pyramid",
-          image: "Pyramid.jpg",
+          image: "Pyramid.jpeg",
           description: "A three-dimensional shape with a polygon base and triangular faces that meet at a single point called the apex. Volume = (1/3) × Base Area × Height. The ancient Egyptian pyramids are famous examples."
         },
         {
           name: "Cone",
-          image: "Cone.jpg",
+          image: "Cone.jpeg",
           description: "A three-dimensional shape with a circular base that tapers smoothly to a point (apex). Volume = (1/3)πr²h, Curved Surface Area = πrl (where l is slant height, l² = r² + h²). Ice cream cones and traffic cones are common examples."
         },
         {
           name: "Cube",
-          image: "Cube.jpg",
+          image: "Cube.jpeg",
           description: "A three-dimensional shape with 6 equal square faces, 12 edges of equal length, and 8 vertices. All angles are right angles. Surface Area = 6a², Volume = a³ (where a is the edge length). Dice and Rubik's cubes are examples."
         },
         {
           name: "Cylinder",
-          image: "Cylinder.jpg",
+          image: "Cylinder.jpeg",
           description: "A three-dimensional shape with two parallel circular bases of equal size connected by a curved surface. Volume = πr²h, Curved Surface Area = 2πrh, Total Surface Area = 2πr(r + h). Cans and pipes are cylindrical."
         }
       ]
@@ -114,27 +114,27 @@ const VisualGlossary = () => {
       concepts: [
         {
           name: "Polynomial Inequality",
-          image: "PolynomialInequality.jpg",
+          image: "PolynomialInequality.jpeg",
           description: "An inequality involving polynomial expressions, such as p(x) > 0, p(x) < 0, p(x) ≥ 0, or p(x) ≤ 0. Used to find ranges of values (intervals) that satisfy the given condition. Solving involves finding critical points and testing intervals."
         },
         {
           name: "Location of Roots",
-          image: "LocationOfRoots.jpg",
+          image: "LocationOfRoots.jpeg",
           description: "The positions where a polynomial function crosses or touches the x-axis on a graph. These are the values where p(x) = 0, also called zeros, solutions, or roots. The location and nature of roots determine the shape of the polynomial graph."
         },
         {
           name: "Cubic",
-          image: "Cubic.jpg",
+          image: "Cubic.jpeg",
           description: "A polynomial of degree 3, where the highest power of x is 3. General form: ax³ + bx² + cx + d (where a ≠ 0). It can have up to 3 real roots and its graph has an S-shape with one or two turning points."
         },
         {
           name: "Quadratic",
-          image: "Quadratic.jpg",
+          image: "Quadratic.jpeg",
           description: "A polynomial of degree 2, where the highest power of x is 2. General form: ax² + bx + c (where a ≠ 0). Its graph is a parabola (U-shaped curve). Can have 0, 1, or 2 real roots depending on the discriminant (b² - 4ac)."
         },
         {
           name: "Linear",
-          image: "Linear.jpg",
+          image: "Linear.jpeg",
           description: "A polynomial of degree 1, where the highest power of x is 1. General form: ax + b (where a ≠ 0). Its graph is a straight line with constant slope 'a'. Every linear equation has exactly one real root: x = -b/a."
         }
       ]
@@ -145,12 +145,12 @@ const VisualGlossary = () => {
       concepts: [
         {
           name: "Rational and Irrational",
-          image: "Rational_Irrational.jpg",
+          image: "Rational_Irrational.jpeg",
           description: "Rational numbers can be expressed as a fraction p/q where p and q are integers and q ≠ 0. They have terminating or repeating decimal expansions (e.g., 1/2 = 0.5, 1/3 = 0.333...). Irrational numbers cannot be expressed as fractions and have non-repeating, non-terminating decimals (e.g., π = 3.14159..., √2 = 1.41421...)."
         },
         {
           name: "Number Line",
-          image: "Number Line.jpg",
+          image: "Number Line.jpeg",
           description: "A visual representation of real numbers as points on an infinite straight line. Zero is at the center, positive numbers extend to the right, and negative numbers to the left. It helps visualize number ordering, distance between numbers, and operations like addition and subtraction."
         }
       ]
@@ -161,32 +161,32 @@ const VisualGlossary = () => {
       concepts: [
         {
           name: "Incenter",
-          image: "Incenter.jpg",
+          image: "Incenter.jpeg",
           description: "The point where all three angle bisectors of a triangle meet (concurrent point). It's the center of the inscribed circle (incircle) that touches all three sides of the triangle. The incenter is always located inside the triangle and is equidistant from all three sides."
         },
         {
           name: "Orthocenter",
-          image: "Orthocenter.jpg",
+          image: "Orthocenter.jpeg",
           description: "The point where all three altitudes of a triangle intersect. An altitude is a perpendicular line from a vertex to the opposite side. The orthocenter's location varies: inside for acute triangles, at the right-angle vertex for right triangles, and outside for obtuse triangles."
         },
         {
           name: "Centroid",
-          image: "Centroid.jpg",
+          image: "Centroid.jpeg",
           description: "The point where all three medians of a triangle intersect. A median connects a vertex to the midpoint of the opposite side. The centroid is the center of mass or balance point of the triangle and divides each median in a 2:1 ratio (2 parts toward the vertex, 1 part toward the midpoint)."
         },
         {
           name: "Type",
-          image: "Type.jpg",
+          image: "Type.jpeg",
           description: "Triangles are classified by sides: Equilateral (3 equal sides, all angles 60°), Isosceles (2 equal sides, 2 equal angles), Scalene (no equal sides or angles). By angles: Acute (all angles < 90°), Right (one 90° angle), Obtuse (one angle > 90°). These properties affect the triangle's shape and symmetry."
         },
         {
           name: "Similar",
-          image: "Similar.jpg",
+          image: "Similar.jpeg",
           description: "Triangles that have the same shape but different sizes. All corresponding angles are equal, and corresponding sides are proportional (in the same ratio). Similarity is used in scale drawings, maps, indirect measurement, and proves many geometric theorems. Symbol: △ABC ~ △DEF"
         },
         {
           name: "Congruent",
-          image: "Congruent.jpg",
+          image: "Congruent.jpeg",
           description: "Triangles that are identical in both shape and size. All corresponding sides and angles are exactly equal. Congruence can be proven using criteria: SSS (Side-Side-Side), SAS (Side-Angle-Side), ASA (Angle-Side-Angle), AAS (Angle-Angle-Side), and RHS (Right angle-Hypotenuse-Side). Symbol: △ABC ≅ △DEF"
         }
       ]
